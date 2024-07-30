@@ -36,4 +36,3 @@ echo "{\"this machine\": \"$this_machine\", \"API\": \"milkfrogs.com\"}" > /usr/
 chmod 755 /usr/local/bin/spektr_config.json
 
 # Add cron job
-(sudo crontab -l; echo "*/1 * * * * sudo python3 /usr/local/bin/spektr.py") | crontab -
