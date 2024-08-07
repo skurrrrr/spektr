@@ -4,7 +4,7 @@ This will be incorporated into a larger application that will allow me to know w
 
 To install:
 
-git clone https://github.com/skurrrrr/spektr /usr/local/bin && cd spektr && sudo bash install.sh
+git clone https://github.com/skurrrrr/spektr /usr/local/bin/spektr && sudo bash /usr/local/bin/spektr/install.sh
 
 To uninstall:
 
