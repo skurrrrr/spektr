@@ -22,11 +22,7 @@ echo "███████╗██████╗ ███████╗█�
 ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝        
                                                  "
 # deletes stuff
-rm /usr/local/bin/spektr.py /usr/local/bin/spektr_config.json /usr/local/bin/public_ip.json
-
-cd ..
-
-rm -rf spektr/
+rm -rf /usr/local/bin/spektr/
 
 # removes cron job (NEEDS TO BE FIXED)
 #sudo sed -i '/.*python3 \/usr\/local\/bin\/spektr\.py/d' /tmp/$(crontab  -l)
