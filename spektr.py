@@ -18,10 +18,10 @@ with open('/usr/local/bin/spektr/ip.json', 'w') as f:
 with open('/usr/local/bin/spektr/ip.json') as f:
     data = json.load(f)
 
-webhook_url = 'https://discord.com/api/webhooks/1177047018363957414/dxFB_PVZlOHUV4yrx1dNM2WpkVuVMlxV3JkIHytAwbAMjB-LwPR-ao-gqygkMJ66K7GR'
+webhook_url = 'https://discord.com/api/webhooks/1138255787102314506/oyNaqCCFiAds2bBeGH3A6v6lnuj7zmQ1BxzeVe1YXIvJeWT9W5EOYW8lYwZ-lu61wDHl'
 data = {
     "username": data["machine_name"],
-    "content": f"IP Address: {data['IP Address']}"
+    "content": f"IP: {data['IP Address']}"
 }
 
 headers = {
